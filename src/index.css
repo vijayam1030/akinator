@@ -89,6 +89,26 @@ code {
   box-shadow: 0 10px 20px rgba(244, 67, 54, 0.3);
 }
 
+.btn-unsure {
+  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+  color: white;
+}
+
+.btn-unsure:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(255, 152, 0, 0.3);
+}
+
+.btn-dont-know {
+  background: linear-gradient(135deg, #9e9e9e 0%, #757575 100%);
+  color: white;
+}
+
+.btn-dont-know:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(158, 158, 158, 0.3);
+}
+
 .progress-bar {
   width: 100%;
   height: 8px;
